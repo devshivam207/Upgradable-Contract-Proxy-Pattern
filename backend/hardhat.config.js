@@ -1,9 +1,8 @@
 require("@nomiclabs/hardhat-waffle");
 require("@nomiclabs/hardhat-ethers");
 require("@openzeppelin/hardhat-upgrades");
-
-const YOUR_PRIVATE_KEY =
-  "b36bfa799dccc4a3b4d53efce883e4ea5935364eb314fb0f80f07c907c39bf3b";
+// THIS IS JUST A DEMO PVT KEY USE YOUR OWN HERE >>>
+const YOUR_PRIVATE_KEY = "YOUR_PVT_KEY";
 
 module.exports = {
   solidity: "0.8.20",
